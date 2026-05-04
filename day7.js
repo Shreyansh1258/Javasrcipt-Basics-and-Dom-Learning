@@ -32,5 +32,13 @@ console.log("Total Price : "+total);
 
 
 // simple number guess
+let secret = 7;
 
+let guess  = prompt("Guess the number ?");
+if(guess==secret){
+    console.log("Its correct you won");
+}
+else{
+    console.log("Wrong Answer try again !");
+}
 
